@@ -3,10 +3,6 @@
 
 $quoteDany = "Fire cannot kill a dragon.";
 
-//var_dump($_GET['name']);
-
-
-
 
 ?>
 
@@ -30,7 +26,6 @@ $quoteDany = "Fire cannot kill a dragon.";
     </p>
 
 
-
     <!-- Una parola da censurare viene passata dall'utente tramite parametro GET. -->
     <div>
         <h5>testo censurato:</h5>
@@ -47,9 +42,6 @@ $quoteDany = "Fire cannot kill a dragon.";
         numero di caratteri nella stringa: 
         <?php echo strlen($textCensored)?>
     </p>
-
-
-
 
 
 </body>
